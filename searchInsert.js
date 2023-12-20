@@ -5,8 +5,8 @@ function searchInsert(nums, target){
         }
     }
     return nums.length
-} 
-let nums1 = [1, 3, 5, 6]
+}
+const nums1 = [1, 3, 5, 6]
 console.log(searchInsert(nums1, 5));
 console.log(searchInsert(nums1, 2));
 console.log(searchInsert(nums1, 7));
